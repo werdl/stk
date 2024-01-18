@@ -41,6 +41,7 @@ char *p = array;
     .arg("temp.c")
     .arg("-o")
     .arg("res")
+    .arg("-O3")
     .output()
     .expect("failed to execute process");
 }
