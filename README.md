@@ -2,17 +2,18 @@
 ## Brainf*ck derivative, but smaller
 
 ## Commands
-```c
-|= // increment current pointer value
-= // decrement current pointer value
+```php
+$ // increment current pointer value
+$$ // decrement current pointer value
 
-> // increment current pointer by 1
-|> // decrement current pointer by 1
+$$$ // increment current pointer by 1
+$$$$ // decrement current pointer by 1
 
-. // print value of current pointer
-|. // take current input from stdin
+$$$$$ // print value of current pointer
+$$$$$$ // take current input from stdin
 
-~ // start/end loop
+$$$$$$$ // start loop
+$$$$$$$$ // end loop
 
 anything else // comment
 ```
