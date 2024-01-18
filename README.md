@@ -15,11 +15,13 @@ $$$$$$ // take current input from stdin
 $$$$$$$ // start loop
 $$$$$$$$ // end loop
 
+. // seperator char
+
 anything else // comment
 ```
 
 ## Examples
 ```c
 // print a character
-|= |= |= |= |= |= ~|= |= |= |= |= |=~ . // print '$'
+$.$.$.$.$$$$$$$.$$$$$$.$$$$$.$$$$$$$$. // takes user input and prints it four times.
 ```
